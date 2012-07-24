@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="95583349-aea9-4971-baef-043a05e2837a" SharePointProductVersion="14.0">
+  <ApplicationResourceFiles>
+    <App_GlobalResourceFile Location="FTC.SharePoint.Evolution\AppResourses\SPEvoContents.resx" />
+  </ApplicationResourceFiles>
+  <Assemblies>
+    <Assembly Location="FTC.SharePoint.Evolution.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\evolution\Default.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="FTC.SharePoint.Evolution_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

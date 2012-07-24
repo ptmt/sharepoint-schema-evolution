@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="a448ff27-c8ac-45ff-aee3-0bbf49ec6ece" Scope="Web" Title="FTC.SharePoint.Evolution Feature1">
+  <ElementManifests>
+    <ElementManifest Location="AppResourses\Elements.xml" />
+    <ElementManifest Location="AdministrationAppliedPage\Elements.xml" />
+  </ElementManifests>
+</Feature>

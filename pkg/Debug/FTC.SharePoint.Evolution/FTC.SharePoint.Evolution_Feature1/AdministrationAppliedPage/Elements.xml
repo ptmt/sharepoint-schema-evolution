@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+		Id="SharePoint.Evolution.AppliedPageAction1"
+		Location="Microsoft.SharePoint.SiteSettings"
+		GroupId="SiteAdministration"
+		Title="blabal"
+		Description="ba"
+		Rights="ManageSubwebs"
+		Sequence="100">
+        <UrlAction
+			Url="~site/_layouts/evolution/Applied.aspx?SiteUrl={SiteUrl}" />
+    </CustomAction>
+    <CustomAction
+		Id="SharePoint.Evolution.AppliedPageAction"
+		Location="Microsoft.SharePoint.SiteSettings"
+		GroupId="SiteAdministration"
+		Title="$Resources:SPEvoContents,AppliedPageAction_Title;"
+		Description="$Resources:SPEvoContents,AppliedPageAction_Description;"
+		Rights="ManageSubwebs"
+		Sequence="100">
+        <UrlAction
+			Url="~site/_layouts/evolution/Applied.aspx?SiteUrl={SiteUrl}" />
+    </CustomAction>
+</Elements>
