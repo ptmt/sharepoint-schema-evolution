@@ -1,9 +1,9 @@
 sharepoint-schema-evolution
 ===========================
 
-Migration for Microsoft SharePoint 2010 data - Content Types, List, Columns, ListItems and many other in "Ruby on Rails-style". (AcitveRecord::Migration)
+Migrations for Microsoft SharePoint 2010 data: Content Types, List, Columns, ListItems etc in "Ruby on Rails"-way. (AcitveRecord::Migration)
 
-Write small evolution's steps which help to deploy and synchronize data schema beetween production and development environment.
+Write small migrations steps which help to deploy and synchronize data schema beetween production, test and development environment.
 
 Designed for SharePoint 2010, written in C#.
 
